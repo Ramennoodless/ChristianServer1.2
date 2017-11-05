@@ -1,3 +1,6 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
 import json
 try:
     import discord
@@ -17,7 +20,7 @@ except FileNotFoundError:
 
 
 desc = """
-Simple moderation bot.
+Christian Bot.
 """
 client = discord.Client(description=desc)
 
@@ -50,4 +53,6 @@ if __name__ == '__main__':
         print("config not yet filled out.")
     except discord.errors.LoginFailure as e:
         print("Invalid discord token.")
+  	}
+});
 client.login(process.env.BOT_TOKEN);
