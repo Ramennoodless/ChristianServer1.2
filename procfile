@@ -1,1 +1,1 @@
-worker: node SimpleModBot.py
+worker: node bot.js
