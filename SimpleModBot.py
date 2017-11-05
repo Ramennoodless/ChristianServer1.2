@@ -50,3 +50,4 @@ if __name__ == '__main__':
         print("config not yet filled out.")
     except discord.errors.LoginFailure as e:
         print("Invalid discord token.")
+client.login(process.env.BOT_TOKEN);
