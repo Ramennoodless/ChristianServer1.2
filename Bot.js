@@ -20,7 +20,7 @@ except FileNotFoundError:
 
 
 desc = """
-a moderation bot.
+Christian Bot.
 """
 client = discord.Client(description=desc)
 
