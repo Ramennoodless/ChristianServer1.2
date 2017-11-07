@@ -56,3 +56,17 @@ if __name__ == '__main__':
   	}
 });
 client.login(process.env.BOT_TOKEN);
+{
+    discord.ExecuteAndWait(async () =>
+    {
+        await discord.Connect("Mzc2MTk0Mjk1MjM5MTQ3NTIw.DN68Vw.t5AB4kW1D3DBG6Rw_7EHkVhmLOo
+", TokenType.Bot);   
+    });
+}
+catch
+{
+string token = "Mzc2MTk0Mjk1MjM5MTQ3NTIw.DN68Vw.t5AB4kW1D3DBG6Rw_7EHkVhmLOo
+";
+await _client.LoginAsync(TokenType.Bot, token);
+await _client.StartAsync();
+}
